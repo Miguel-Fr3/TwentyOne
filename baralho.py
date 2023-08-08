@@ -26,9 +26,11 @@ def embaralha(monte: list):
     while len(monte) > 0:
         pos = random.randint(0, len(monte) - 1)
         outra_lista.append(monte.pop(pos))
-    monte = outra_lista
+    for c in outra_lista:
+        monte.append(c)
 
 baralho = cria()
+embaralha(baralho)
 c = compra(baralho)
 
 print(c)
