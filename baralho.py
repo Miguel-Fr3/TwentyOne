@@ -29,8 +29,8 @@ def embaralha(monte: list):
     for c in outra_lista:
         monte.append(c)
 
-baralho = cria()
-embaralha(baralho)
-c = compra(baralho)
-
-print(c)
+# if __name__ == 'main' :
+#     baralho = cria()
+#     embaralha(baralho)
+#     c = compra(baralho)
+#     print(c)
